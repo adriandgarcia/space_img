@@ -1,0 +1,54 @@
+
+
+/*Let's start by adding a backround color
+to better see how the content is on the page*/
+
+*{
+	background-color: blueviolet;
+}
+
+
+/*Let's try to resize. max-width define the
+maximum width you're going to allow an element
+to be in a browser window*/
+
+
+img{
+	max-height: auto;
+	max-width: 50%;
+}
+
+
+/*Let's see how the border looks*/
+
+
+img{
+	border-style: dotted;
+	border-color: whitesmoke;
+}
+
+
+/*How about the background of the image*/
+
+img{
+	background-color: green;
+}
+
+/*we can see the img background
+if we add some padding*/
+img{
+	padding: 30px;
+}
+
+/*can we center it with auto?*/
+
+img{
+	margin: auto;
+}
+
+/*we can force it to act like a block element*/
+
+img{
+	margin: auto;
+	display: block;
+}
